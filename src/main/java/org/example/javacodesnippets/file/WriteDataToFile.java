@@ -86,6 +86,8 @@ public class WriteDataToFile {
         Example - 2.1 : Write to file using FileWriter Class with write method
      */
     public void usingWriteFromFileWriterClass() throws IOException {
+        // FileWriter : Meant for writing streams of characters directly to the file.
+
         FileWriter fileWriter = new FileWriter(new File(fileNameToWrite + "3.txt"));
         fileWriter.write(String.join(",", fileContents));
         fileWriter.close();
@@ -100,6 +102,8 @@ public class WriteDataToFile {
         Example - 2.2 : Write to file using BufferedWriter Class with write method
      */
     public void usingWriteFromBufferedWriterClass() throws IOException {
+        // BufferedWriter : Writes text to a character-output stream, buffering characters so as to provide for the efficient writing.
+
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileNameToWrite + "4.txt"));
         for(String line : fileContents ) {
             bufferedWriter.write(line);
