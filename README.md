@@ -21,8 +21,8 @@ Code Snippet and comments are also added for better understanding.
 <li>Using FileWriter</li>
 <li>Using BufferedWriter</li>
 
-There are other classes to read data from a file, like ByteArray-Based and Character-Based.
-Above are the easy once to use in any framework if there is a need for reading file.
+There are other classes to write data to a file, like ByteArray-Based and Character-Based.
+Above are the easy once to use in any framework if there is a need for writing data to file.
 
 You can refer this file - [WriteDataToFile](./src/main/java/org/example/javacodesnippets/file/WriteDataToFile.java)
 
