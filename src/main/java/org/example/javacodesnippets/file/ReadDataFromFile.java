@@ -27,7 +27,7 @@ public class ReadDataFromFile {
         // Example - 1.3 : Read file data using java.nio.file.Files class with readAllBytes method
         readDataFromFile.usingReadAllBytesMethodFromFilesClass();
 
-        // Compared to Files.readAllLines() vs Files.lines() :
+        // Files.readAllLines() vs Files.lines() vs Files.readAllBytes() :
         // readAllLines() - is preferred when the file is small.
         // lines() - is preferred when the file is large.
         // readAllBytes() - is preferred when the file type is Binary Data or Image Data.
@@ -37,6 +37,10 @@ public class ReadDataFromFile {
 
         // Example - 2.2 : Read file data using Scanner class with nextLine method
         readDataFromFile.usingNextLineMethodFromScannerClass();
+
+        // Scanner vs BufferedReader
+        // Scanner is preferred, if stream of characters needs to be parsed in different ways.
+        // BufferedReader is preferred, if we need to read the data as it is.
 
     }
 
