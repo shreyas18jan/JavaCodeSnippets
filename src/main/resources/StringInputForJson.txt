@@ -1,0 +1,11 @@
+{
+	"laptops": [{
+		"name": "MAC",
+		"cost": 20500.00,
+		"isRefurbished": true
+	}, {
+		"name": "DELL",
+		"cost": 15500.00,
+		"isRefurbished": false
+	}]
+}

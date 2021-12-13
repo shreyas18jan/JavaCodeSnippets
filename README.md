@@ -26,3 +26,13 @@ Above are the easy once to use in any framework if there is a need for writing d
 
 You can refer this file - [WriteDataToFile](./src/main/java/org/example/javacodesnippets/file/WriteDataToFile.java)
 
+## String to Json using Jackson package 
+Code Snippet and comments are also added for better understanding.
+<li>Using objectMapper.readValue</li>
+<li>Using objectMapper.treeToValue</li>
+<li>Using jsonFactory.createParser</li>
+
+There are overloaded variations of these approach which we can make use of - Reader, File, URL, InputStream, etc
+Above are the easy once to use in any framework if there is a need for converting String to Json.
+
+You can refer this file - [StringToJsonJacksonPackage](./src/main/java/org/example/javacodesnippets/json/stringtojson/JacksonPackageStringToJson.java)
