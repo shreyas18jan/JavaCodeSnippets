@@ -36,3 +36,13 @@ There are overloaded variations of these approach which we can make use of - Rea
 Above are the easy once to use in any framework if there is a need for converting String to Json.
 
 You can refer this file - [StringToJsonJacksonPackage](./src/main/java/org/example/javacodesnippets/json/stringtojson/JacksonPackageStringToJson.java)
+
+## String to Json using Gson package
+Code Snippet and comments are also added for better understanding.
+<li>Using gson.fromJson</li>
+<li>Using JsonParser.parseString</li>
+
+There are overloaded variations of these approach which we can make use of - Reader, File, URL, InputStream, etc
+Above are the easy once to use in any framework if there is a need for converting String to Json.
+
+You can refer this file - [StringToJsonGsonPackage](./src/main/java/org/example/javacodesnippets/json/stringtojson/GsonPackageStringToJson.java)
