@@ -67,6 +67,7 @@ public class JacksonPackageStringToJson {
      */
     public void usingParserFromJacksonCorePackage(String fileName) throws IOException {
         JsonFactory jsonFactory = new JsonFactory();
+        jsonFactory.setCodec(new ObjectMapper());
         JsonParser jsonParser = jsonFactory.createParser(new File(fileName));
         // We can ignore the error if we encounter unknown property/ies
         jsonParser.disable(JsonParser.Feature.IGNORE_UNDEFINED);

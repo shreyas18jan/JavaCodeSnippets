@@ -10,7 +10,7 @@ Code Snippet and comments are also added for better understanding.
 <li>Using Scanner</li>
 
 There are other classes to read data from a file, like ByteArray-Based and Character-Based.
-Above are the easy once to use in any framework if there is a need for reading file.
+Above are the easy one's to use in any framework if there is a need for reading file.
 
 You can refer this file - [ReadDataFromFile](./src/main/java/org/example/javacodesnippets/file/ReadDataFromFile.java)
 
@@ -22,7 +22,7 @@ Code Snippet and comments are also added for better understanding.
 <li>Using BufferedWriter</li>
 
 There are other classes to write data to a file, like ByteArray-Based and Character-Based.
-Above are the easy once to use in any framework if there is a need for writing data to file.
+Above are the easy one's to use in any framework if there is a need for writing data to file.
 
 You can refer this file - [WriteDataToFile](./src/main/java/org/example/javacodesnippets/file/WriteDataToFile.java)
 
@@ -33,7 +33,7 @@ Code Snippet and comments are also added for better understanding.
 <li>Using jsonFactory.createParser</li>
 
 There are overloaded variations of these approach which we can make use of - Reader, File, URL, InputStream, etc
-Above are the easy once to use in any framework if there is a need for converting String to Json.
+Above are the easy one's to use in any framework if there is a need for converting String to Json.
 
 You can refer this file - [StringToJsonJacksonPackage](./src/main/java/org/example/javacodesnippets/json/stringtojson/JacksonPackageStringToJson.java)
 
@@ -43,6 +43,22 @@ Code Snippet and comments are also added for better understanding.
 <li>Using JsonParser.parseString</li>
 
 There are overloaded variations of these approach which we can make use of - Reader, File, URL, InputStream, etc
-Above are the easy once to use in any framework if there is a need for converting String to Json.
+Above are the easy one's to use in any framework if there is a need for converting String to Json.
 
 You can refer this file - [StringToJsonGsonPackage](./src/main/java/org/example/javacodesnippets/json/stringtojson/GsonPackageStringToJson.java)
+
+## Stream API + Integer List Examples
+Code Snippet and comments are also added for better understanding.
+<li>Using forEach</li>
+<li>Using distinct</li>
+<li>Using sorted</li>
+<li>Using summaryStatistics</li>
+<li>Using map</li>
+<li>Using filter</li>
+<li>Using reduce</li>
+<li>Using collect</li>
+
+There are other methods like - flatMap, mapToInt, toArray, etc
+Above are the easy one's to use in any framework.
+
+You can refer this file - [IntegerExampleWithStreamAPI](./src/main/java/org/example/javacodesnippets/streams/IntegerExampleWithSteamAPI.java)
