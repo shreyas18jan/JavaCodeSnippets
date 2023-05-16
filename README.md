@@ -62,3 +62,6 @@ There are other methods like - flatMap, mapToInt, toArray, etc
 Above are the easy one's to use in any framework.
 
 You can refer this file - [IntegerExampleWithStreamAPI](./src/main/java/org/example/javacodesnippets/streams/IntegerExampleWithSteamAPI.java)
+
+## Sieve of Eratosthenes
+You can refer this file - [SieveOfEratosthenes](./src/main/java/org/example/javacodesnippets/commonsnippets/SieveOfEratosthenes.java)

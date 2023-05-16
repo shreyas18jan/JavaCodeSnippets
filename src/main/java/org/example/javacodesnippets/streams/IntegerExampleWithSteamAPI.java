@@ -98,5 +98,13 @@ public class IntegerExampleWithSteamAPI {
         String collectedValues = integerListExample.stream().map(String::valueOf).collect(Collectors.joining(","));
         System.out.print("Collect the entries in String fashion : " + collectedValues);
         System.out.println("\n");
+
+        //
+        // Convert IntStream to Stream<Integer>
+        // boxed() - Ability to transform IntStream to Stream<Integer>.
+        List<Integer> integerList = IntStream.range(0, 10).boxed().collect(Collectors.toList());
+        // Following code throws Compile time exception.
+        //List<Integer> integerList1 = IntStream.range(0, 10).collect(Collectors.toList());
+        System.out.println("Collect the entries in List<Integer> fashion : " + integerList);
     }
 }
